@@ -101,3 +101,22 @@ li a{
         background-color: #559e46;
         
     }
+
+
+
+@media print { 
+    body {
+        color: black;
+        background: white;
+        margin: 0;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 20px;
+        margin: 10px;
+        padding: 10px;
+    }
+}
